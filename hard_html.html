@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanjore Degree Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ece5be900c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="./logo.png" alt="Tanjore Degree Coffee"></a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list" id="sidemenu">
+                    <li class="nav-item" id="first"><a href="#hm">Home</a></li>
+                    <li class="nav-item"><a href="#abt">About Us</a></li>
+                    <li class="nav-item"><a href="#best">Our Best</a></li>
+                    <li class="nav-item"><a href="#gal">Gallery</a></li>
+                    <li class="nav-item"><a href="#testi">Client Testimonials</a></li>
+                    <li class="nav-item"><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="cta" id="hm">
+                <a href="#" class="cta-button">Order Now</a>
+            </div>
+        </div>
+    </header>
+    <!-- background images-->
+    <div class="hero-content">
+    </div>
+    <!--about us-->
+    <section class="about-us" id="abt">
+        <div class="container" id="abt">
+            <h2>About Us</h2>
+            <div class="content">
+                <div class="images">
+                    <img src="./About Us img.png" alt="Coffee Process">
+                </div>
+                <div class="text">
+                    <h1>Welcome to Tanjore</h1>
+                    <p>In January 22, 2013, Shri C. Saminathan, with over 35 years of experience
+                        in the FMCG industry, laid the foundation for his coffee decoction venture
+                        under the brand name 'TANJORE Degree Coffee'.</p>
+                </div>
+            </div>
+        </div>
+        <!----why we are best----->
+    </section>
+    <section class="our-coffee" id="best">
+        <div class="container-best">
+            <h2 class="section-title">Why We Are Best</h2>
+            <div class="coffee-cards">
+                <div class="coffee-card">
+                    <img src="./Best_quality_img.png" alt="Coffee Type 1" class="coffee-img">
+                    <h3 class="coffee-title">Quality</h3>
+                    <p class="coffee-description"> At Tanjore Degree Coffee, we uphold uncompromising standards to
+                        deliver a superior coffee experience. From carefully selected beans to meticulous brewing
+                        techniques,
+                        we ensure that every cup meets our stringent quality benchmarks. Experience excellence
+                        with every sip of Tanjore Degree Coffee.</p>
+                </div>
+                <div class="coffee-card">
+                    <img src="./org_authentic_img.png" alt="Coffee Type 2" class="coffee-img">
+                    <h3 class="coffee-title">Authenticity</h3>
+                    <p class="coffee-description">Our commitment to preserving the authentic taste and aroma of South
+                        Indian filter coffee sets us apart from the rest. With Tanjore Degree Coffee, you can enjoy the
+                        true essence of this beloved beverage in the comfort of your own home.</p>
+                </div>
+            </div>
+        </div>
+        <!------gallery----->
+    </section>
+    <section class="menu-section" id="gal">
+        <div class="container-gal">
+            <h2 class="section-title-gal">Gallery</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="./Gallery img1.png" alt="Espresso" class="resize">
+                    <h3 class="menu-item-title">Coffee</h3>
+                    <p class="menu-item-description">Rich and smooth Coffee made with freshly ground coffee beans.</p>
+                    <p class="menu-item-price">$3.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./Gallery img2.jpeg" alt="Cappuccino" class="resize">
+                    <h3 class="menu-item-title">Cappuccino</h3>
+                    <p class="menu-item-description">Classic cappuccino with a perfect blend of espresso, steamed milk,
+                        and foam.</p>
+                    <p class="menu-item-price">$4.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./Gallery img3.png" alt="Decoction" class="resize">
+                    <h3 class="menu-item-title">Decoction</h3>
+                    <p class="menu-item-description">Creamy Decoction with a shot of espresso and steamed milk, smelling
+                        special.</p>
+                    <p class="menu-item-price">$4.50</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./Gallery img4.jpeg" alt="Espresso" class="resize">
+                    <h3 class="menu-item-title">Espresso</h3>
+                    <p class="menu-item-description">Creamy Espresso with a shot of latte and steamed milk, topped with
+                        foam.</p>
+                    <p class="menu-item-price">$4.50</p>
+                </div>
+                <!-- Add more menu items as needed -->
+            </div>
+        </div>
+        <!-- testimonials-->
+    </section>
+    <section class="customer-reviews" id="testi">
+        <div class="container-re">
+            <h2 class="section-title-test">Testimonials</h2>
+            <div class="review-slider">
+                <div class="review" id="1st">
+                    <div class="reviewer-info">
+                        <img src="" alt="Customer 1">
+                        <div class="reviewer-details">
+                            <h3 class="reviewer-name">Priya</h3>
+                            <p class="review-date">March 15, 2024</p>
+                        </div>
+                    </div>
+                    <p class="review-text">"I've been a fan of Jayam rose milk &amp; coffee for years, and their
+                        decoction maker has truly been a game-changer for me. As someone who values
+                        both authenticity and convenience, I am able to brew authentic South Indian filter
+                        coffee at home."</p>
+                </div>
+                <div class="review" id="2nd">
+                    <div class="reviewer-info">
+                        <img src="" alt="Customer 2">
+                        <div class="reviewer-details">
+                            <h3 class="reviewer-name">Rajesh</h3>
+                            <p class="review-date">April 2, 2024</p>
+                        </div>
+                    </div>
+                    <p class="review-text">"Indulging in rose milk and filter coffee at this quaint café was an
+                        absolute delight.</p>
+
+                </div>
+                <button class="slider-button prev" id="prev" onclick="prev()">❮</button>
+                <button class="slider-button next" id="next" onclick="next()">❯</button>
+            </div>
+    </section>
+    <!--contact us-->
+    <div id="contact">
+        <div class="container-sub">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:tanjoredegreecoffee@yahoo.in">tanjoredegreecoffee@yahoo.in</a></p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9003106755</p>
+                    <p><i class="fa-solid fa-location-dot"></i>364,37th Street TVS Avenue, Anna Nagar West Extn.,
+                        Chennai -
+                        600101.</p>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="Name" placeholder="Name" required>
+                        <input type="email" name="Email" id="Email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" id="Message" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.display = "block";
+        }
+        function closemenu() {
+            sidemeu.style.display = "none";
+        }
+    </script>
+    <script>
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbzKj3_9fxJ813wALHe2xYLFy1DykGN-Vu9XXc0WcuSnmAN4LfASjVdyrTdi1JIpBHQGDA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Submitted Succesfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
