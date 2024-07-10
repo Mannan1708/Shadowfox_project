@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ece5be900c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id ="header">
+
+      <div class="container">
+        <nav>
+            <img src="./LOGO.png" class="logo"> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li> 
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Devloper</p>
+            <h1>Hi, I am <span>Mannan Agrawal</span><br>From Ahmedabad</h1>
+        </div>
+      </div>   
+    </div>
+<!---------------- about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./profile.jpg">
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm an enthusiastic and creative individual with a passion for continuous learning and growth. My background is diverse, which has allowed me to develop a well-rounded perspective. I thrive in dynamic environments where I can leverage my skills, and I'm always excited to take on new challenges. In my free time, I enjoy various hobbies and interests that help me stay inspired and balanced.</p>
+                        <div class="tab-titles">
+                            <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                            <P class="tab-links"onclick="opentab('experience')">Experience</P>
+                            <P class="tab-links"onclick="opentab('education')">Education</P>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Devloper</span><br>Web App Devlopment</li>
+                                <li><span>App Devlopment</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Free lancer</span><br>Web Devlopment</li>
+                                <li><span>Fresher</span></li>
+                                <li><span>Intern</span><br>Infosys,Shadowfox and Acmegrade</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020</span><br>SSC from Amrita Vidyalayam</li>
+                                <li><span>2022</span><br>HSC from Amrita Vidyalayam</li>
+                                <li><span>2025</span><br>Bsc(ca & it) from K.S. School of Buisness Management and Information Technology </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------- sevices--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> 1. Custom Website Design<br>
+                        2. Responsive Design<br>
+                        3. UI/UX Design<br>
+                        4. E-commerce Design<br>
+                        5. Payment Gateway Integration<br>
+                        6. CMS Integration (WordPress, Joomla, etc.)<br>
+                        7. SEO Optimization<br>
+                        8. Digital Marketing Integration<br>
+                        9. Website Maintenance and Updates<br>
+                        10. Technical Support
+                        </p> 
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> 1. User Research<br>
+                        2. Wireframing<br>
+                        3. Prototyping<br>
+                        4. User Interface (UI) Design<br>
+                        5. User Experience (UX) Design<br>
+                        6. Usability Testing<br>
+                        7. Interaction Design<br>
+                        8. Information Architecture<br>
+                        9. Visual Design<br>
+                        10. Design System Creation  
+                        </p> 
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p> 1. User Research<br>
+                        2. Wireframing<br>
+                        3. Prototyping<br>
+                        4. UI/UX Design<br>
+                        5. Interaction Design<br>
+                        6. Visual Design<br>
+                        7. Usability Testing<br>
+                        8. Information Architecture<br>
+                        9. App Icon and Branding Design<br>
+                        10. Responsive and Adaptive Design                                            
+                        </p> 
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="./work1.png">
+                    <div class="layer">
+                        <h3>Login Page</h3>
+                        <p>A login page is a web page where users enter their credentials, typically a username and password, to gain access to a website or application.</p>
+                        <a href="#"><i class="fa-solid fa-right-to-bracket"></i>"</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work2.png">
+                    <div class="layer">
+                        <h3>Game</h3>
+                        <p>Game development refers to the process of creating video games or interactive experiences, involving design, programming, art creation, sound production, and testing.</p>
+                        <a href="#"><i class="fa-solid fa-gamepad"></i>"</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work3.png">
+                    <div class="layer">
+                        <h3>Logo</h3>
+                        <p>Logo designing is the process of creating a visual symbol or mark that represents a company, brand, product, or organization. </p>
+                        <a href="#"><i class="fa-brands fa-slack"></i>"</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!------------contact---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mannanagrawal17@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9979934238</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/mannan.agrawal.9?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mannan_1708_?igsh=Mm1vZXBtdW1zZTlp"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mannan-agrawal-543354233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/qr/SRRL5R3MTER5G1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/Mannan1708"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="./CV.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Mannan. Made with <i class="fa-solid fa-heart"></i> by Mannan Agrawal</p>
+        </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.display="block";
+        }
+        function closemenu(){
+            sidemeu.style.display="none"
+        }
+
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzi5bQYFxiRE_wfxxb5lJnKEiOJhdLX9zuwKv3xUR_dKWQYCM70hX08syltojtdcUSl/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Submitted Sucesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
